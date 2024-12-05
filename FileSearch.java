@@ -8,7 +8,7 @@ public class FileSearch {
     public static void main(String[] args) {
         // Check if at least two arguments are provided (pattern and file path)
         if (args.length < 2) {
-            System.out.println("Usage: search [-i] <pattern> <file>");
+            System.out.println("Usage: FileSearch.java [-i] <pattern> <filename.filetype>");
             return;
         }
 
